@@ -1,3 +1,5 @@
+select 'some changing text'
+
 -- Get selected server properties (Query 3) (Server Properties)
 SELECT SERVERPROPERTY('MachineName') AS [MachineName], 
 SERVERPROPERTY('ServerName') AS [ServerName],  
